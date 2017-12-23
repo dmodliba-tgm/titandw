@@ -1,0 +1,222 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.googleapis.com/css?family=Oregano");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Salsa");
+.header01__image {
+  height: 20vh;
+  display: flex;
+  align-items: center; }
+  .header01__image__container {
+    width: 50%;
+    color: white; }
+    .header01__image__container__line {
+      background: #1a00f4;
+      font-size: 2.5rem;
+      padding: 0.5rem 1.5rem;
+      margin: 1.5rem 0; }
+
+.header02__image {
+  background: url("eins.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: inset 0.25rem 0.25rem 0.5rem gray; }
+  .header02__image__container {
+    width: 50%;
+    float: right;
+    color: white; }
+    .header02__image__container__line {
+      background: rgba(26, 0, 244, 0.6666666667);
+      font-size: 2.5rem;
+      padding: 0.5rem 1.5rem;
+      margin: 1.5rem 0; }
+.header02__button {
+  position: absolute;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 70vh; }
+  .header02__button__container {
+    background-color: #1a00f4;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem black; }
+    .header02__button__container__icon {
+      padding: 1.5rem;
+      color: white; }
+
+.header03__image {
+  background: url("eins.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0.25rem 0.25rem 0.5rem gray; }
+  .header03__image__container {
+    width: 50%;
+    float: right;
+    color: white; }
+    .header03__image__container__line {
+      background: rgba(26, 0, 244, 0.6666666667);
+      font-size: 2.5rem;
+      padding: 0.5rem 1.5rem;
+      margin: 1.5rem 0; }
+.header03__button {
+  position: absolute;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  top: 70vh; }
+  .header03__button__container {
+    background-color: #1a00f4;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem black; }
+    .header03__button__container__icon {
+      padding: 1.5rem;
+      color: white; }
+
+.nav {
+  border-bottom: 2px solid #1a00f4;
+  background-color: rgba(255, 255, 255, 0.2); }
+  .nav--scrolled {
+    background: white;
+    box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+  .nav__brand {
+    height: 3rem; }
+  .nav__link {
+    color: #1a00f4;
+    text-shadow: 0 0 1px gray; }
+    .nav__link:hover, .nav__link:focus, .nav__link:active {
+      border-bottom: 2px solid #1a00f4;
+      color: #1a00f4; }
+    .nav__link--active {
+      border-bottom: 2px solid #1a00f4; }
+
+.introduction {
+  position: relative;
+  margin-top: 5rem; }
+  .introduction__spacer {
+    display: block;
+    margin-top: -4rem;
+    padding-bottom: 4rem; }
+  .introduction__hl-container {
+    position: absolute;
+    top: 6.5rem;
+    width: 100%; }
+    .introduction__hl-container__headline {
+      background-color: #1a00f4;
+      color: white;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray;
+      text-align: right;
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+  .introduction__container {
+    box-shadow: 0.25rem 0.25rem 0.5rem gray;
+    padding: 10rem 10rem 5rem; }
+    .introduction__container__text {
+      line-height: 2rem; }
+    .introduction__container__img {
+      width: 100%;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray;
+      margin: 1rem 0; }
+
+.parallax {
+  margin: 5rem 0;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: inset 0.25rem 0.25rem 0.5rem gray; }
+  .parallax--after-intro {
+    background-image: url("assets/img_01.jpg"); }
+  .parallax__container {
+    background: rgba(26, 0, 244, 0.6666666667);
+    color: white;
+    padding: 2rem 3rem;
+    font-size: 2rem; }
+
+.angebot__headline {
+  background-color: #1a00f4;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0.5rem gray;
+  position: absolute;
+  top: 2.5rem;
+  text-align: right;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; }
+.angebot__container {
+  box-shadow: 0.25rem 0.25rem 0.5rem gray;
+  padding: 10rem 10rem 3rem; }
+  .angebot__container__sub {
+    padding: 0 1rem; }
+    .angebot__container__sub__text {
+      line-height: 2rem;
+      position: relative;
+      bottom: 3.5rem; }
+    .angebot__container__sub__img {
+      width: 100%;
+      box-shadow: 0.25rem 0.25rem 0.5rem gray;
+      margin: 1rem 0; }
+    .angebot__container__sub__headline {
+      background-color: #1a00f4;
+      color: white;
+      padding: 0.5rem 1rem;
+      position: relative;
+      right: 1rem;
+      bottom: 5rem;
+      box-shadow: 0.25rem 0.25rem 1rem black; }
+    .angebot__container__sub__link {
+      position: relative;
+      bottom: 3rem;
+      background: #1a00f4;
+      color: white;
+      padding: 0.25rem 0.5rem; }
+      .angebot__container__sub__link:hover, .angebot__container__sub__link:focus, .angebot__container__sub__link:active {
+        color: white;
+        text-decoration: none;
+        box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+    .angebot__container__sub__line {
+      height: 1px;
+      border-top: 2px solid #1a00f4;
+      position: relative;
+      bottom: 2rem; }
+
+.footer {
+  margin-top: 5rem;
+  background: #1a00f4;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0.5rem gray;
+  padding: 1rem; }
+  .footer__headline {
+    font-size: 1.2rem; }
+  .footer__link {
+    color: white; }
+    .footer__link:hover, .footer__link:active, .footer__link:focus {
+      color: white;
+      text-decoration: underline; }
+
+.post-footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  border-top: 1px solid white; }
+
+body {
+  font-family: 'Open Sans';
+  font-size: 16px; }
+
+/*# sourceMappingURL=angebot.css.map */

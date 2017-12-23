@@ -1,0 +1,342 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.googleapis.com/css?family=Oregano");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Salsa");
+
+
+$blue: rgba(26, 0, 244, 1);
+$blue_less: rgba(26, 0, 244, 2/3);
+
+$header_hl_fs: 2.5rem;
+
+$padding_small: 0.5rem;
+$padding_default: 1rem;
+$padding_large: 1.5rem;
+$padding_xlarge: 2rem;
+
+$shadow_default: 0.25rem 0.25rem 0.5rem gray;
+$shadow_center: 0 0 0.5rem black;
+$shadow_darker: 0.25rem 0.25rem 1rem black;
+
+.header01 {
+
+    &__image {
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        //font-family: 'Oregano';
+
+        &__container {
+            width: 50%;
+            color: white;
+
+            &__line {
+                background: $blue;
+                font-size: $header_hl_fs;
+                padding: $padding_small $padding_large;
+                margin: $padding_large 0;
+            }
+        }
+    }
+}
+
+
+.header02 {
+
+    &__image {
+        background: url("eins.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        //font-family: 'Oregano';
+        box-shadow: inset $shadow_default;
+
+        &__container {
+            width: 50%;
+            float: right;
+            color: white;
+
+            &__line {
+                background: $blue_less;
+                font-size: $header_hl_fs;
+                padding: $padding_small $padding_large;
+                margin: $padding_large 0;
+            }
+        }
+    }
+
+    &__button {
+        position: absolute;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        top: 70vh;
+
+        &__container {
+            background-color: $blue;
+            border-radius: 50%;
+            box-shadow: $shadow_center;
+
+            &__icon {
+                padding: $padding_large;
+                color: white;
+            }
+        }
+    }
+}
+
+
+.header03 {
+
+    &__image {
+        background: url("eins.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        //font-family: 'Oregano';
+        box-shadow: inset $shadow_default;
+
+        &__container {
+            width: 50%;
+            float: right;
+            color: white;
+
+            &__line {
+                background: $blue_less;
+                font-size: $header_hl_fs;
+                padding: $padding_small $padding_large;
+                margin: $padding_large 0;
+            }
+        }
+    }
+
+    &__button {
+        position: absolute;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        top: 70vh;
+
+        &__container {
+            background-color: $blue;
+            border-radius: 50%;
+            box-shadow: $shadow_center;
+
+            &__icon {
+                padding: $padding_large;
+                color: white;
+            }
+        }
+    }
+}
+
+
+.nav {
+    border-bottom: 2px solid $blue;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    &--scrolled {
+        background: white;
+        box-shadow: $shadow_default;
+    }
+
+    &__brand {
+        height: 3rem;
+    }
+
+    &__link {
+        color: $blue;
+        text-shadow: 0 0 1px gray;
+
+        &:hover,
+        &:focus,
+        &:active {
+            border-bottom: 2px solid $blue;
+            color: $blue;
+        }
+
+        &--active {
+            border-bottom: 2px solid $blue;
+        }
+    }
+}
+
+.introduction {
+    position: relative;
+    margin-top: 5rem;
+
+    &__spacer {
+        display: block;
+        margin-top: -4rem;
+        padding-bottom: 4rem;
+    }
+
+    &__hl-container {
+        position: absolute;
+        top: 6.5rem;
+        width: 100%;
+
+        &__headline {
+            background-color: $blue;
+            color: white;
+            box-shadow: $shadow_default;
+            text-align: right;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    }
+
+    &__container{
+        box-shadow: $shadow_default;
+        padding: 10rem 10rem 5rem;
+
+        &__text {
+            line-height: 2rem;
+        }
+
+        &__img {
+            width: 100%;
+            box-shadow: $shadow_default;
+            margin: 1rem 0;
+        }
+    }
+}
+
+.parallax {
+    margin: 5rem 0;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white no-repeat center center fixed;
+    background-size: cover;
+    box-shadow: inset $shadow_default;
+
+    &--after-intro {
+        background-image: url("assets/img_01.jpg");
+    }
+
+    &__container {
+        background: $blue_less;
+        color: white;
+        padding: 2rem 3rem;
+        font-size: 2rem;
+    }
+}
+
+.angebot {
+
+    &__headline {
+        background-color: $blue;
+        color: white;
+        box-shadow: $shadow_default;
+        position: absolute;
+        top: 2.5rem;
+        text-align: right;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__container {
+        box-shadow: $shadow_default;
+        padding: 10rem 10rem 3rem;
+
+        &__sub {
+            padding:0 1rem;
+
+            &__text {
+                line-height: 2rem;
+                position: relative;
+                bottom: 3.5rem;
+            }
+
+            &__img {
+                width: 100%;
+                box-shadow: $shadow_default;
+                margin: 1rem 0;
+            }
+
+            &__headline {
+                background-color: $blue ;
+                color: white;
+                padding: 0.5rem 1rem;
+                position: relative;
+                right: 1rem;
+                bottom: 5rem;
+                box-shadow: $shadow_darker;
+            }
+
+            &__link {
+                position: relative;
+                bottom: 3rem;
+                background: $blue;
+                color: white;
+                padding: 0.25rem 0.5rem;
+
+                &:hover,
+                &:focus,
+                &:active {
+                    color: white;
+                    text-decoration: none;
+                    box-shadow: $shadow_default;
+                }
+            }
+
+            &__line {
+                height: 1px;
+                border-top: 2px solid $blue;
+                position: relative;
+                bottom: 2rem;
+            }
+        }
+    }
+}
+
+.footer {
+    margin-top: 5rem;
+    background: $blue;
+    color: white;
+    box-shadow: $shadow_default;
+    padding: 1rem;
+
+    &__headline {
+        font-size: 1.2rem;
+    }
+
+    &__link {
+        color: white;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
+
+.post-footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}

@@ -44,7 +44,7 @@
                         <a class="nav-link nav__link" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav__link" href="#">Angebot</a>
+                        <a class="nav-link nav__link" href="angebot/index.php">Angebot</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav__link" href="#">Kontakt</a>

@@ -35,10 +35,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link nav__link nav__link--active" href="#">Home</a>
+                        <a class="nav-link nav__link nav__link--active" href=<?= get_template_directory_uri() . "index.php"; ?>>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav__link" href="#">Team</a>
+                        <a class="nav-link nav__link" href=<?= get_template_directory_uri() . "/team/index.php"; ?>>Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav__link" href="#">News</a>
@@ -177,10 +177,10 @@
                         <p class="footer__headline">
                             Der Verein
                         </p>
-                        <a href="#" class="footer__link">
+                        <a href=<?= get_template_directory_uri() . "index.php"; ?> class="footer__link">
                             Home
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href=<?= get_template_directory_uri() . "/team/index.php"; ?> class="footer__link">
                             Über Uns
                         </a><br>
                         <a href="#" class="footer__link">
@@ -197,7 +197,7 @@
                         <a href="#" class="footer__link">
                             News
                         </a><br>
-                        <a href="#" class="footer__link">
+                        <a href=<?= get_template_directory_uri() . "/angebot/index.php"; ?> class="footer__link">
                             Angebot & Preise
                         </a><br>
                         <a href="#" class="footer__link">

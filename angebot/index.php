@@ -43,7 +43,7 @@
                   <a class="nav-link nav__link " href=<?= get_template_directory_uri() . "index.php"; ?>>Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">Team</a>
+                  <a class="nav-link nav__link" href=<?= get_template_directory_uri() . "/team/index.php"; ?>>Team</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link nav__link" href="#">News</a>
@@ -195,70 +195,69 @@
 
 <!-- FOOTER -->
 <section class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <p class="footer__headline">
-                    Der Verein
-                </p>
-                <a href="#" class="footer__link">
-                    Home
-                </a><br>
-                <a href="#" class="footer__link">
-                    Über Uns
-                </a><br>
-                <a href="#" class="footer__link">
-                    Trainer
-                </a><br>
-                <a href="#" class="footer__link">
-                    Paare
-                </a><br>
-            </div>
-            <div class="col-4">
-                <p class="footer__headline">
-                    Informationen
-                </p>
-                <a href="#" class="footer__link">
-                    News
-                </a><br>
-                <a href="#" class="footer__link">
-                    Angebot & Preise
-                </a><br>
-                <a href="#" class="footer__link">
-                    Turnierplan - national
-                </a><br>
-                <a href="#" class="footer__link">
-                    Turnierplan - internationale
-                </a><br>
-            </div>
-            <div class="col-4">
-                <p class="footer__headline">
-                    Details
-                </p>
-                <a href="#" class="footer__link">
-                    Impressum
-                </a><br>
-                <a href="#" class="footer__link">
-                    Kontakt
-                </a><br>
-                <a href="#" class="footer__link">
-                    Reglement
-                </a><br>
-            </div>
-        </div>
-    </div>
+		<div class="container">
+				<div class="row">
+						<div class="col-4">
+								<p class="footer__headline">
+										Der Verein
+								</p>
+								<a href=<?= get_template_directory_uri() . "index.php"; ?> class="footer__link">
+										Home
+								</a><br>
+								<a href=<?= get_template_directory_uri() . "/team/index.php"; ?> class="footer__link">
+										Über Uns
+								</a><br>
+								<a href="#" class="footer__link">
+										Trainer
+								</a><br>
+								<a href="#" class="footer__link">
+										Paare
+								</a><br>
+						</div>
+						<div class="col-4">
+								<p class="footer__headline">
+										Informationen
+								</p>
+								<a href="#" class="footer__link">
+										News
+								</a><br>
+								<a href=<?= get_template_directory_uri() . "/angebot/index.php"; ?> class="footer__link">
+										Angebot & Preise
+								</a><br>
+								<a href="#" class="footer__link">
+										Turnierplan - national
+								</a><br>
+								<a href="#" class="footer__link">
+										Turnierplan - internationale
+								</a><br>
+						</div>
+						<div class="col-4">
+								<p class="footer__headline">
+										Details
+								</p>
+								<a href="#" class="footer__link">
+										Impressum
+								</a><br>
+								<a href="#" class="footer__link">
+										Kontakt
+								</a><br>
+								<a href="#" class="footer__link">
+										Reglement
+								</a><br>
+						</div>
+				</div>
+		</div>
 </section>
 
 <!-- POST-FOOTER -->
 <section class="post-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                Ⓒ UTSS Titan - Deutsch Wagram
-            </div>
-        </div>
-    </div>
+		<div class="container">
+				<div class="row">
+						<div class="col-12">
+								Ⓒ UTSS Titan - Deutsch Wagram
+						</div>
+				</div>
+		</div>
 </section>
-
 </body>
 </html>

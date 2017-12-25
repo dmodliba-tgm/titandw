@@ -52,7 +52,7 @@
                   <a class="nav-link nav__link nav__link--active" href=<?= get_template_directory_uri() . "/angebot/index.php"; ?>>Angebot</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">Kontakt</a>
+                  <a class="nav-link nav__link" href=<?= get_template_directory_uri() . "/kontakt/index.php"; ?>>Kontakt</a>
               </li>
           </ul>
       </div>
@@ -238,7 +238,7 @@
 								<a href="#" class="footer__link">
 										Impressum
 								</a><br>
-								<a href="#" class="footer__link">
+								<a href=<?= get_template_directory_uri() . "/kontakt/index.php"; ?> class="footer__link">
 										Kontakt
 								</a><br>
 								<a href="#" class="footer__link">

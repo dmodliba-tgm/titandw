@@ -115,7 +115,7 @@
 			<p font="Open Sans", align="justify">
 				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
 			</p>
-      <a href="#"><button type="button" class="btn btn-default">Mehr lesen !</button></a>
+      <a href=<?= get_template_directory_uri() . "/news/artikel/index.php"; ?> class="footer__link"><button type="button" class="btn btn-default">Mehr lesen !</button></a>
 		</div>
 
   </div>

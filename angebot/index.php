@@ -46,7 +46,7 @@
                   <a class="nav-link nav__link" href=<?= get_template_directory_uri() . "/team/index.php"; ?>>Team</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link nav__link" href="#">News</a>
+                  <a class="nav-link nav__link" href=<?= get_template_directory_uri() . "/news/index.php"; ?>>News</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link nav__link nav__link--active" href=<?= get_template_directory_uri() . "/angebot/index.php"; ?>>Angebot</a>
@@ -218,7 +218,7 @@
 								<p class="footer__headline">
 										Informationen
 								</p>
-								<a href="#" class="footer__link">
+								<a href=<?= get_template_directory_uri() . "/news/index.php"; ?> class="footer__link">
 										News
 								</a><br>
 								<a href=<?= get_template_directory_uri() . "/angebot/index.php"; ?> class="footer__link">

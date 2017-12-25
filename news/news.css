@@ -1,0 +1,67 @@
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+@import url("http://fonts.googleapis.com/css?family=Oregano");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+@import url("http://fonts.googleapis.com/css?family=Salsa");
+.header01__image {
+  height: 20vh;
+  display: flex;
+  align-items: center; }
+  .header01__image__container {
+    width: 50%;
+    color: white; }
+    .header01__image__container__line {
+      background: #1a00f4;
+      font-size: 2.5rem;
+      padding: 0.5rem 1.5rem;
+      margin: 1.5rem 0; }
+
+.nav {
+  border-bottom: 2px solid #1a00f4;
+  background-color: rgba(255, 255, 255, 0.2); }
+  .nav--scrolled {
+    background: white;
+    box-shadow: 0.25rem 0.25rem 0.5rem gray; }
+  .nav__brand {
+    height: 3rem; }
+  .nav__link {
+    color: #1a00f4;
+    text-shadow: 0 0 1px gray; }
+    .nav__link:hover, .nav__link:focus, .nav__link:active {
+      border-bottom: 2px solid #1a00f4;
+      color: #1a00f4; }
+    .nav__link--active {
+      border-bottom: 2px solid #1a00f4; }
+
+.img-with-text {
+  float: left;
+  width: 100%;
+  padding: 1px;
+  font-size: 1em; }
+
+.footer {
+  margin-top: 5rem;
+  background: #1a00f4;
+  color: white;
+  box-shadow: 0.25rem 0.25rem 0.5rem gray;
+  padding: 1rem; }
+  .footer__headline {
+    font-size: 1.2rem; }
+  .footer__link {
+    color: white; }
+    .footer__link:hover, .footer__link:active, .footer__link:focus {
+      color: white;
+      text-decoration: underline; }
+
+.post-footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  border-top: 1px solid white; }
+
+body {
+  font-family: 'Open Sans';
+  font-size: 16px; }
+
+/*# sourceMappingURL=news.css.map */

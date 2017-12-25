@@ -15,20 +15,6 @@
       padding: 0.5rem 1.5rem;
       margin: 1.5rem 0; }
 
-.header02__image {
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; }
-  .header02__image__container {
-    width: 50%;
-    color: white; }
-    .header02__image__container__line {
-      background: #1a00f4;
-      font-size: 2.5rem;
-      padding: 0.5rem 1.5rem;
-      margin: 1.5rem 0; }
-
 .nav {
   border-bottom: 2px solid #1a00f4;
   background-color: rgba(255, 255, 255, 0.2); }
@@ -78,4 +64,4 @@ body {
   font-family: 'Open Sans';
   font-size: 16px; }
 
-/*# sourceMappingURL=kontakt.css.map */
+/*# sourceMappingURL=impressum.css.map */

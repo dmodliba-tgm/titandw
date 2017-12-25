@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- own stylesheet -->
-  <link rel="stylesheet" href=<?= get_template_directory_uri() . "/kontakt/kontakt.css"; ?>>
+  <link rel="stylesheet" href=<?= get_template_directory_uri() . "/impressum/impressum.css"; ?>>
 
   <!-- Ajax CDN -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
@@ -144,7 +144,7 @@
                 <p class="footer__headline">
                     Details
                 </p>
-                <a href="#" class="footer__link">
+                <a href=<?= get_template_directory_uri() . "/impressum/index.php"; ?> class="footer__link">
                     Impressum
                 </a><br>
                 <a href=<?= get_template_directory_uri() . "/kontakt/index.php"; ?> class="footer__link">

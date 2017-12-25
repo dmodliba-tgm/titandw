@@ -240,7 +240,7 @@
                 <p class="footer__headline">
                     Details
                 </p>
-                <a href="#" class="footer__link">
+                <a href=<?= get_template_directory_uri() . "/impressum/index.php"; ?> class="footer__link">
                     Impressum
                 </a><br>
                 <a href=<?= get_template_directory_uri() . "/kontakt/index.php"; ?> class="footer__link">

@@ -66,7 +66,7 @@
 <section class="header01">
     <div class="header01__image">
         <div class="header01__image__container">
-            <p class="header01__image__container__line">Unser Angebot</p>
+            <p class="header01__image__container__line" align="right">Unser Angebot</p>
         </div>
     </div>
 </section>
@@ -116,7 +116,7 @@
 <section class="header03">
     <div class="header03__image">
         <div class="header03__image__container">
-            <p class="header03__image__container__line">Standard</p>
+            <p class="header03__image__container__line" align="right">Standard</p>
         </div>
     </div>
     <div class="header03__button">

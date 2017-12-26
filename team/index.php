@@ -68,7 +68,7 @@
 <section class="header01">
     <div class="header01__image">
         <div class="header01__image__container">
-            <p class="header01__image__container__line">Team</p>
+            <p class="header01__image__container__line" align="right">Team</p>
         </div>
     </div>
 </section>
@@ -113,24 +113,16 @@
   <div class="row">
       <div class="col-md-4">
             <img src="trainer1.jpg" width="50%" height="60%">
-            <p>
-              Max Mustermann
-              <br></br>
-              +43 650 1234567
-              <br></br>
-              max.mustermann@gmail.com
-            </p>
+						<p>Max Mustermann</p>
+		        <p>+43 650 1234567</p>
+		        <p>max.mustermann@gmail.com</p>
       </div>
 
       <div class="col-md-4">
             <img src="trainer1.jpg" width="50%" height="60%">
-            <p>
-              Max Mustermann
-              <br></br>
-              +43 650 1234567
-              <br></br>
-              max.mustermann@gmail.com
-            </p>
+						<p>Max Mustermann</p>
+						<p>+43 650 1234567</p>
+						<p>max.mustermann@gmail.com</p>
       </div>
 
       <div class="col-md-4">
@@ -160,35 +152,23 @@
   <div class="row">
       <div class="col-md-4">
             <img src="tanzpartner.jpg" width="80%" height="80%">
-            <p>
-              Max Mustermann
-              <br></br>
-              +43 650 1234567
-              <br></br>
-              max.mustermann@gmail.com
-            </p>
+						<p>Max Mustermann</p>
+						<p>+43 650 1234567</p>
+						<p>max.mustermann@gmail.com</p>
       </div>
 
       <div class="col-md-4">
             <img src="tanzpartner.jpg" width="80%" height="80%">
-            <p>
-              Max Mustermann
-              <br></br>
-              +43 650 1234567
-              <br></br>
-              max.mustermann@gmail.com
-            </p>
+						<p>Max Mustermann</p>
+						<p>+43 650 1234567</p>
+						<p>max.mustermann@gmail.com</p>
       </div>
 
       <div class="col-md-4">
         <img src="tanzpartner.jpg" width="80%" height="80%">
-        <p>
-          Max Mustermann
-          <br></br>
-          +43 650 1234567
-          <br></br>
-          max.mustermann@gmail.com
-        </p>
+				<p>Max Mustermann</p>
+				<p>+43 650 1234567</p>
+				<p>max.mustermann@gmail.com</p>
       </div>
 
   </div>
